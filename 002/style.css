@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: darkorchid;
+    display: flex;
+}
+
+.w50 {
+    width: 50%;
+    padding: 0px 10px;
+}
+
+.menu {
+    text-align: right;
+}
+
+section.banner {
+    width: 100%;
+    min-height: 500px;
+    background-color: blue;
+    text-align: center;
+    padding: 90px 0px;
+    color: white;
+    padding: 20px 0px;
+}
+
+section.diferenciais {
+    display: flex;
+    text-align: center;
+}
+
+.w33 {
+    width: 33.3%;
+    padding: 0 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: darkorchid;
+}
